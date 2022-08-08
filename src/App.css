@@ -1,0 +1,61 @@
+input {
+  width: 100%;
+  outline: none;
+
+}
+
+:root {
+  --theme-color: #0096a3
+}
+
+.vh-100 {
+  height: 100vh;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.p-5 {
+  padding: 1rem;
+}
+
+.pdd-2 {
+  padding: 8px 10px;
+}
+
+.mb-2 {
+  margin-bottom: 0.6rem;
+}
+
+.form-control {
+  margin: auto;
+  width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 8px;
+}
+
+.btn {
+  background-color: var(--theme-color);
+  border: none;
+  color: #fff;
+  font-weight: 600;
+  padding: 8px 0;
+  cursor: pointer;
+}
+
+.validation-error{
+  font-size: 10px;
+  color: red;
+}
+.m-auto{
+  margin: auto;
+}
+.col-6{
+  width: 50%;
+}
+
+.adjlf:focus{
+  background-color: aqua !important;
+  border: 2px solid #000;
+}
